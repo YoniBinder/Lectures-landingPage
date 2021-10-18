@@ -20,21 +20,18 @@ export default function LandingPage() {
 
           {/* <!-- Navbar Links --> */}
           <ul className="nav-list text-center pt-3">
-            
-            <li className="nav-item">
-              <a className="nav-link" href="#menu">סילבוס</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#about">הרצאת מבוא</a>
+          <li className="nav-item">
+              <a className="nav-link" href="#home">עמוד הבית</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#about">מי אנחנו</a>
             </li>
-            
             <li className="nav-item">
-              <a className="nav-link" href="#home">עמוד הבית</a>
+              <a className="nav-link" href="#introDetails">הרצאת מבוא</a>
             </li>
-            
+            <li className="nav-item">
+              <a className="nav-link" href="#sylabus">סילבוס</a>
+            </li>
             
             {/* <li className="nav-item">
               <a className="nav-link" href="#chefs">Our Team</a>
@@ -45,7 +42,7 @@ export default function LandingPage() {
         <div className="hero-text w-100 text-white px-2 px-sm-0">
           <h1 className="display-4">ברוכים הבאים למשקיעים בג'ינס</h1>
           <p className="lead mb-4">קורס למתחילים המעוניינים להשקיע במטבעות דיגיטליים ולהתפתח באופן אישי</p>
-          <a className="btn px-5 mr-2" href="#">הרשמה להרצאת מבוא</a>
+          <a className="btn px-5 mr-2" href="https://www.google.com/">הרשמה להרצאת מבוא</a>
           {/* <a className="btn px-5 ml-2" href="#">לסילבוס</a> */}
         </div>
       </div>
@@ -65,7 +62,7 @@ export default function LandingPage() {
             >
               <div className="section-heading mb-3">
                 <h4>נעים להכיר</h4>
-                <h1 className="display-4"></h1>
+                {/* <h1 className="display-4"></h1> */}
               </div>
 
               <p>
@@ -74,7 +71,7 @@ export default function LandingPage() {
                 או להעביר מסרים ורעיונות לקבוצת אנשים.
             עבורי, להיכנס לחלל בו יושבים אנשים ומחכים למוצא פי, היה סיוט אמיתי.
               </p>
-              <a className="btn mt-4 mb-5 mb-md-0" href="#">לאתר הרשמי</a>
+              <a className="btn mt-4 mb-5 mb-md-0" href="https://kushmaro.com/?fbclid=IwAR3sF5LoQkxcjtL_VWHmMK0gDhHaqb8a57POGGxbHuiHgtNNFHV-He9JscU">לאתר הרשמי</a>
             </div>
           </div>
           <div className="row align-items-lg-center">
@@ -84,7 +81,7 @@ export default function LandingPage() {
             >
               <div className="section-heading mb-3">
                 <h4>התמדה זה שם המשחק</h4>
-                <h1 className="display-4"></h1>
+                {/* <h1 className="display-4"></h1> */}
               </div>
 
               <p >
@@ -104,7 +101,7 @@ export default function LandingPage() {
       </section>
 
       {/* <!-- Menu Section --> */}
-      <section className="menu" id="menu">
+      <section className="menu" id="introDetails">
         <div className="container">
           <div className="row text-center text-white">
             {/* <!-- ----------- --> */}
@@ -140,10 +137,11 @@ export default function LandingPage() {
 
           <hr className="mt-5" />
         </div>
-
+        </section>
+        <section id="sylabus" className="p-0">
         <div className="container-fluid p-0">
           <div className="section-heading my-5 text-center">
-            <h4 className="text-white">מה נלמד בקורס?</h4>
+            {/* <h4 className="text-white">מה נלמד בקורס?</h4> */}
             <h1 className="display-4">סילבוס</h1>
           </div>
 
@@ -291,9 +289,9 @@ export default function LandingPage() {
         </div>
       </section> */}
 
-      <footer className="text-center py-2">
-      <a className="btn px-5 mr-2" href="#">הרשמה להרצאת מבוא</a>
-      <br/><br/><br/>
+      <footer className="text-center py-5">
+      <a className="btn px-5 mr-2" href="https://www.google.com/">הרשמה להרצאת מבוא</a>
+      <br/><br/>
         &copy; משקיעים בג'ינס 2021
       </footer>
     </main>
