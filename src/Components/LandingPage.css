@@ -246,15 +246,18 @@ footer {
   background-color: #101d2c;
   color: rgba(255, 255, 255, 0.5);
 }
-
-@media (min-width: 576px) {
-  .navbar-brand {
-    max-width: 150px;
-  }
+@media (min-width: 359px) {
   .hamburger-menu {
-    top: 35px;
+    top: 5px;
     right: 25px;
   }
+  .display-4{
+    margin-top:40px;
+  }
+}
+@media (min-width: 576px) {
+  
+  
 
   .point-left::before,
   .point-right::before {
@@ -266,11 +269,11 @@ footer {
   }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .btn {
     width: 150px;
   }
-}
+} */
 
 @media (min-width: 992px) {
   header > .container {

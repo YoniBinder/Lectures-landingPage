@@ -4,9 +4,9 @@ import './LandingPage.css';
 export default function LandingPage() {
     return (
         <div>
-            <header id="home">
-      <div className="container">
-        <div className="hamburger-menu">
+            <header id="home">  
+          <div className="container">
+          <div className="hamburger-menu">
           <i className="fas fa-bars toggle"></i>
           <i className="fas fa-times toggle"></i>
         </div>
@@ -14,9 +14,6 @@ export default function LandingPage() {
         <nav
           className="d-flex align-items-center justify-content-center justify-content-lg-between"
         >
-          {/* <a className="navbar-brand" href="index.html">
-            <img className="img-fluid" src="images/logo.png" alt="" />
-          </a> */}
 
           {/* <!-- Navbar Links --> */}
           <ul className="nav-list text-center pt-3">
